@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'a';
+    src: url('/font/OpenSansCondensed-LightItalic.ttf');
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(#005AA7, #FFFDE4);
+    /* 각도지정, 각 색상 퍼센트 지정가능 */
+
+}
+
+
+.wrap-all {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.info {
+    margin-top: 30%;
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    font-family: 'a';
+
+}
+
+.weather-type {
+    display: block;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #eaeaea;
+    margin-top: 8px;
+    font-family: 'a';
+
+}
+
+.humidity {
+    display: block;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #eaeaea;
+    margin-top: 8px;
+    font-family: 'a';
+
+}
+
+
+.icon {
+    display: block;
+    margin-top: 15px;
+    height: 200px;
+    width: 200px;
+}
+
+#select {
+    min-width: 150px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: lighter;
+    font-family: 'a';
+
+}
